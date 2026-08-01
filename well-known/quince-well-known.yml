@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of https://www.quince.com/.well-known/*
+host: www.quince.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+notes: >-
+  Quince (www.quince.com) is a direct-to-consumer e-commerce retailer with no
+  public developer program. No .well-known discovery documents are published;
+  all probed paths returned 404. Recorded as honest negative discovery data.

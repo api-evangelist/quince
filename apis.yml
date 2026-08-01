@@ -1,8 +1,27 @@
 aid: quince
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quince.png
 name: Quince
-description: Quince is a company surfaced as a portfolio company of 8vc, ggv-capital, iconiq-capital,
-  insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a
-  lead awaiting the enrichment pipeline.
+description: >-
+  Quince is a direct-to-consumer e-commerce retailer selling high-quality
+  essentials at radical prices across apparel, home goods, bedding, furniture,
+  accessories, jewelry, beauty, and travel. It uses a factory-direct model that
+  bypasses traditional retail markups to offer affordable luxury. Quince was
+  surfaced as a portfolio company of 8vc, GGV Capital, ICONIQ Capital, and
+  Insight Partners and added to the API Evangelist network. As a consumer retail
+  brand it publishes no public developer API, developer portal, or .well-known
+  discovery surface; this profile captures its identity and domain-security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/quince/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Direct-to-Consumer
+- Apparel
+- Home Goods
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +51,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://quince.com
+  url: https://www.quince.com
+- type: About
+  url: https://www.quince.com/about
+- type: Careers
+  url: https://www.quince.com/careers
+- type: DomainSecurity
+  url: security/quince-domain-security.yml
+- type: WellKnown
+  url: well-known/quince-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
